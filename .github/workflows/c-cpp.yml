@@ -1,11 +1,11 @@
 name: C/C++ CI
 
-on [push]
+on: [push]
 
 jobs:
   test:
     runs-on: [ubuntu-latest]
     steps:
     - name: configure
-    run: echo "hello,world"
+      run: echo "hello,world"
 
