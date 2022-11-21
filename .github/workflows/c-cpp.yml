@@ -3,7 +3,7 @@ name: C/C++ CI
 on: [push]
 
 jobs:
-  test:
+  hi:
     runs-on: [ubuntu-latest]
     steps:
     - name: greeting
