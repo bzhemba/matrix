@@ -1,6 +1,6 @@
 name: C/C++ CI
 
-on [push, merge_group, pull_request]
+on [push]
 
 jobs:
   test:
