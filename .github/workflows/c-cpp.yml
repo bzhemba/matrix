@@ -6,6 +6,6 @@ jobs:
   test:
     runs-on: [ubuntu-latest]
     steps:
-    - name: configure
-      run: echo "hello,world"
+    - name: greeting
+      run: echo "hello, this project can help you to multiply matrix"
 
